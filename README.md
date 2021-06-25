@@ -30,6 +30,8 @@ It will use a significant amount of space if you're doing large data sets. If yo
 participation (pr)|
 These are the what the numbers repesent in the User Inputs section of the FTP_Download.jl.
 
+Year range is from 2006 to 2100
+
 |Number|Model          |Scenario|Variable           |
 |------|---------------|--------|-------------------|
 |1     | ACCESS1-0     | rcp45  | Annual daily maximum Temperature (tasmax)|
@@ -65,6 +67,11 @@ These are the what the numbers repesent in the User Inputs section of the FTP_Do
 |31    | bcc-csm1-1-m  |        |                   |
 |32    | inmcm4        |        |                   |
 
+### Misc Infomation
+
+The FTP link is [Here](ftp://gdo-dcp.ucllnl.org/pub/dcp/archive/cmip5/loca)
+
+If there is an error in the download make sure to check the last file it was downloading. It could be half downloaded and the program doesn't know the difference between a partial download and complete one. Delete the affected file and restart the program. It will then skip the completed files without you having to change user settings.
 
 
 

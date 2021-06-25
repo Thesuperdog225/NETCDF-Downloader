@@ -28,6 +28,7 @@ global BaseDir = pwd(Host)
 #Model Loop
 for X in ModelRange
     for Y in ScenarioRange
+        #This if statement is to account for the change in directory naming depending on Variable rcp45 or rcp85
         if Y == 1
             for Z in VariableRange
                 #Creates the Directory Paths for both the FTP and Local Computer
@@ -49,7 +50,7 @@ for X in ModelRange
                     End_File = string(Filepath,Local_File_Name)
                     print("Begining Download of Year $T\r\n")
 
-                    #Checks if File is already on Local Drive
+                    #Checks if File is already on Local Drive, otherwise it starts the download
                     if isfile(End_File)
                         print("Download of $(ModelData[Y,5]) $(ModelData[Z,3]) from $(ModelData[X,4]) of Year $T. Already Completed.\r\n\r\n")
                     else
@@ -80,7 +81,7 @@ for X in ModelRange
                     End_File = string(Filepath,Local_File_Name)
                     print("Begining Download of Year $T\r\n")
 
-                    #Checks if File is already on Local Drive
+                    #Checks if File is already on Local Drive, otherwise it starts the download
                     if isfile(End_File)
                         print("Download of $(ModelData[Y,5]) $(ModelData[Z,3]) from $(ModelData[X,4]) of Year $T. Already Completed.\r\n\r\n")
                     else
