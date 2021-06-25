@@ -69,7 +69,8 @@ Year range is from 2006 to 2100
 
 ### Misc Infomation
 
-The FTP link is [Here](ftp://gdo-dcp.ucllnl.org/pub/dcp/archive/cmip5/loca)
+The FTP link is [Here](http://texasenergy.utsa.edu/)
+ftp://gdo-dcp.ucllnl.org/pub/dcp/archive/cmip5/loca
 
 If there is an error in the download make sure to check the last file it was downloading. It could be half downloaded and the program doesn't know the difference between a partial download and complete one. Delete the affected file and restart the program. It will then skip the completed files without you having to change user settings.
 
