@@ -27,14 +27,14 @@ It will use a significant amount of space if you're doing large data sets. If yo
 4. After you have Model, Scenario, Variables, and Year variables set you can simply run the program
 
 ## Model and Scenario Ranges
-
+participation (pr)|
 These are the what the numbers repesent in the User Inputs section of the FTP_Download.jl.
 
 |Number|Model          |Scenario|Variable           |
 |------|---------------|--------|-------------------|
-|1     | ACCESS1-0     | rcp45  | participation (pr)|
-|2     | ACCESS1-3     | rcp85  | Annual daily maximum (tasmax) Temperature|
-|3     | CCSM4         |        | Annual daily minimum (tasmin) Temperature|
+|1     | ACCESS1-0     | rcp45  | Annual daily maximum Temperature (tasmax)|
+|2     | ACCESS1-3     | rcp85  | Annual daily minimum Temperature (tasmin)|
+|3     | CCSM4         |        | participation (pr)|
 |4     | CESM1-BGC     |        |                   |
 |5     | CESM1-CAM5    |        |                   |
 |6     | CMCC-CM       |        |                   |
