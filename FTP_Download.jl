@@ -9,13 +9,13 @@ Home = pwd()
 #------------------------------------------------------
 #Variables for FTP download
 #Model Range{1 = Access-10, 2 = Access-13,...}
-ModelRange = 11
+ModelRange = 1:10
 # Loop in the Scenario Folders (1=rcp45 and 2=rcp85)
-ScenarioRange = 1
-#Loop in the Variables (e.g. pr , tasmax , tasmin)
-VariableRange = 1
+ScenarioRange = [1,2]
+#Loop in the Variables (e.g. tasmax , tasmin , pr)
+VariableRange = [1,3]
 #Loop for Year
-YearRange = 2020:2020
+YearRange = 2021:2021
 #------------------------------------------------------
 
 
