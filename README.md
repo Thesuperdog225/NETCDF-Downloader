@@ -25,6 +25,7 @@ It will use a significant amount of space if you're doing large data sets. If yo
    - To select range of models use = 1:5 or 6:15
    - You can find what the number ranges repersent below, in Model/Scenario/Variable List.
 4. After you have Model, Scenario, Variables, and Year variables set you can simply run the program
+5. If there is an error in the download make sure to check the last file it was downloading. It could be half downloaded and the program doesn't know the difference between a partial download and complete one. Delete the affected file and restart the program. It will then skip the completed files without you having to change user settings.
 
 ## Model and Scenario Ranges
 participation (pr)|
@@ -69,10 +70,8 @@ Year range is from 2006 to 2100
 
 ### Misc Infomation
 
-The FTP link is [Here](http://texasenergy.utsa.edu/)
-ftp://gdo-dcp.ucllnl.org/pub/dcp/archive/cmip5/loca
+The FTP link is here: ftp://gdo-dcp.ucllnl.org/pub/dcp/archive/cmip5/loca
 
-If there is an error in the download make sure to check the last file it was downloading. It could be half downloaded and the program doesn't know the difference between a partial download and complete one. Delete the affected file and restart the program. It will then skip the completed files without you having to change user settings.
 
 
 
