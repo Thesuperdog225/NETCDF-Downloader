@@ -3,10 +3,10 @@ using FTPClient
 using DataFrames
 using CSV
 ModelData = CSV.read("Models.csv", silencewarnings=true)
-Home = pwd()
+
 
 #                   User Inputs
-#------------------------------------------------------
+#-------------------------------------------------------
 #Variables for FTP download
 #Model Range{1 = Access-10, 2 = Access-13,...}
 ModelRange = 1:10
@@ -16,7 +16,10 @@ ScenarioRange = [1,2]
 VariableRange = [1,3]
 #Loop for Year
 YearRange = 2021:2021
-#------------------------------------------------------
+#Sets the directory path for download. Creates folder at current directory by default
+Home = pwd()
+#Home = "C:\\Users\\Breeze\\Documents\\Downloads\\Example_Path"
+#--------------------------------------------------------
 
 
 #loads the FTP to download Files
