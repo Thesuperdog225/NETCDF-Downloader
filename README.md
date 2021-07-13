@@ -1,7 +1,7 @@
 # NETCDF-Downloader
 This code downloads Weather data from https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html#Welcome
 
-It will use a significant amount of space if you're doing large data sets. If you're looking to download a large [larger than a single hard drive] I would suggest another method.
+It will use a significant amount of space if you're doing large data sets. If you're looking to download a large [larger than a single hard drive] data set, I would suggest another method.
 
 
 ## Features
