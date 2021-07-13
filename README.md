@@ -14,7 +14,7 @@ It will use a significant amount of space if you're doing large data sets. If yo
 - [Christopher Munoz](https://www.linkedin.com/in/christopher-munoz-036a2a187)
 - [Maria Aranguren](https://www.linkedin.com/in/aranguren-maria)
 - [TSERI](http://texasenergy.utsa.edu/)
-- Code based off of [Dr. Marcio Giacomoni's](https://www.linkedin.com/in/marcio-giacomoni-0b718945) Matlab FTP downloader
+- Code based off of [Dr. Marcio Giacomoni's](https://www.linkedin.com/in/marcio-giacomoni-0b718945) Matlab NetCDF downloader
 
 ## Usage
 
